@@ -18,9 +18,7 @@ Expense Tracker AI is a sophisticated Python application designed to automate th
 
 ## Screenshots
 
-*(Here you can add a new screenshot of the professional UI)*
-
-`![UI Screenshot](assets/new_ui_screenshot.png)`
+![UI Screenshot](assets/new_ui_screenshot.png)
 
 ---
 
