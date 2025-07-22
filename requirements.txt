@@ -1,0 +1,7 @@
+customtkinter
+Pillow
+google-generativeai
+python-dotenv
+pandas
+openpyxl
+pdf2image

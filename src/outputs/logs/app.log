@@ -1,0 +1,788 @@
+2025-07-21 18:23:38 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 18:23:38 - Image_Analyser - INFO - Logger setup complete. Ready to process images.
+2025-07-21 18:23:39 - Image_Analyser - INFO - Launching UI interface
+2025-07-21 18:23:39 - Image_Analyser - ERROR - Error launching UI: [Errno 2] No such file or directory: 'assets/play.png'
+2025-07-21 18:23:39 - Image_Analyser - INFO - Falling back to console mode
+2025-07-21 18:23:39 - Image_Analyser - INFO - Initializing FileOrganizer with directory: inputs folder
+2025-07-21 18:23:39 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 18:23:39 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 18:23:39 - Image_Analyser - INFO - Checking API key.
+2025-07-21 18:23:40 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 18:23:40 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 18:23:40 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 18:23:40 - Image_Analyser - INFO - Processing image file: inputs\01_18042025_R983.pdf
+2025-07-21 18:23:43 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:23:43 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:23:43 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:23:43 - Image_Analyser - INFO - Processing image file: inputs\02_18042025_R800.pdf
+2025-07-21 18:23:45 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:23:45 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '799.92', 'file_path': 'inputs\\02_18042025_R800.pdf', 'rename_name': '18_04_2025_RS799.92'}
+2025-07-21 18:23:45 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:23:45 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:23:45 - Image_Analyser - INFO - Processing image file: inputs\03_28042025_R700.pdf
+2025-07-21 18:23:48 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:23:48 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '691', 'file_path': 'inputs\\03_28042025_R700.pdf', 'rename_name': '28_04_2025_RS691'}
+2025-07-21 18:23:48 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:23:48 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:23:48 - Image_Analyser - INFO - Processing image file: inputs\03_28042025_R700.png
+2025-07-21 18:23:50 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:23:50 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'inputs\\03_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:23:50 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:23:50 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:23:50 - Image_Analyser - INFO - Processing image file: inputs\04_28042025_R700.png
+2025-07-21 18:23:53 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:23:53 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'inputs\\04_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:23:53 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:23:53 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:23:53 - Image_Analyser - INFO - Processing image file: inputs\s1_20_01_2025_RS82.png
+2025-07-21 18:23:55 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:23:55 - Image_Analyser - INFO - JSON data extracted: {'date': '20_01_2025', 'amount': '82', 'file_path': 'inputs\\s1_20_01_2025_RS82.png', 'rename_name': '20_01_2025_RS82'}
+2025-07-21 18:23:55 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:23:55 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:23:55 - Image_Analyser - INFO - Processing image file: inputs\s2.png
+2025-07-21 18:23:58 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:23:58 - Image_Analyser - INFO - JSON data extracted: {'date': '08_01_2025', 'amount': '110', 'file_path': 'inputs\\s2.png', 'rename_name': '08_01_2025_RS110'}
+2025-07-21 18:23:58 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:23:58 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:23:58 - Image_Analyser - INFO - DB Record: ('1', '799.92', '2025-04-18', 'inputs\\02_18042025_R800.pdf', '18_04_2025_RS799.92')
+2025-07-21 18:23:58 - Image_Analyser - INFO - DB Record: ('2', '691', '2025-04-28', 'inputs\\03_28042025_R700.pdf', '28_04_2025_RS691')
+2025-07-21 18:23:58 - Image_Analyser - INFO - DB Record: ('3', '700', '2025-04-28', 'inputs\\03_28042025_R700.png', '28_04_2025_RS700')
+2025-07-21 18:23:58 - Image_Analyser - INFO - DB Record: ('4', '700', '2025-04-28', 'inputs\\04_28042025_R700.png', '28_04_2025_RS700')
+2025-07-21 18:23:58 - Image_Analyser - INFO - DB Record: ('5', '82', '2025-01-20', 'inputs\\s1_20_01_2025_RS82.png', '20_01_2025_RS82')
+2025-07-21 18:23:58 - Image_Analyser - INFO - DB Record: ('6', '110', '2025-01-08', 'inputs\\s2.png', '08_01_2025_RS110')
+2025-07-21 18:24:13 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 18:24:13 - Image_Analyser - INFO - Logger setup complete. Ready to process images.
+2025-07-21 18:24:14 - Image_Analyser - INFO - Launching UI interface
+2025-07-21 18:24:14 - Image_Analyser - ERROR - Error launching UI: [Errno 2] No such file or directory: 'assets/play.png'
+2025-07-21 18:24:14 - Image_Analyser - INFO - Falling back to console mode
+2025-07-21 18:24:14 - Image_Analyser - INFO - Initializing FileOrganizer with directory: inputs folder
+2025-07-21 18:24:14 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 18:24:14 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 18:24:14 - Image_Analyser - INFO - Checking API key.
+2025-07-21 18:24:15 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 18:24:15 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 18:24:15 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 18:24:15 - Image_Analyser - INFO - Processing image file: inputs\01_18042025_R983.pdf
+2025-07-21 18:24:18 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:24:18 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '983', 'file_path': 'inputs\\01_18042025_R983.pdf', 'rename_name': '18_04_2025_RS983'}
+2025-07-21 18:24:18 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:24:18 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:24:18 - Image_Analyser - INFO - Processing image file: inputs\02_18042025_R800.pdf
+2025-07-21 18:24:20 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:24:20 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '799.92', 'file_path': 'inputs\\02_18042025_R800.pdf', 'rename_name': '18_04_2025_RS799.92'}
+2025-07-21 18:24:20 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:24:20 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:24:20 - Image_Analyser - INFO - Processing image file: inputs\03_28042025_R700.pdf
+2025-07-21 18:24:23 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:24:23 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '691', 'file_path': 'inputs\\03_28042025_R700.pdf', 'rename_name': '28_04_2025_RS691'}
+2025-07-21 18:24:23 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:24:23 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:24:23 - Image_Analyser - INFO - Processing image file: inputs\03_28042025_R700.png
+2025-07-21 18:24:26 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:24:26 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'inputs\\03_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:24:26 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:24:26 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:24:26 - Image_Analyser - INFO - Processing image file: inputs\04_28042025_R700.png
+2025-07-21 18:24:29 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:24:29 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'inputs\\04_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:24:29 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:24:29 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:24:29 - Image_Analyser - INFO - Processing image file: inputs\s1_20_01_2025_RS82.png
+2025-07-21 18:24:31 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:24:31 - Image_Analyser - INFO - JSON data extracted: {'date': '20_01_2025', 'amount': '82', 'file_path': 'inputs\\s1_20_01_2025_RS82.png', 'rename_name': '20_01_2025_RS82'}
+2025-07-21 18:24:31 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:24:31 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:24:31 - Image_Analyser - INFO - Processing image file: inputs\s2.png
+2025-07-21 18:24:34 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:24:34 - Image_Analyser - INFO - JSON data extracted: {'date': '08_01_2025', 'amount': '110', 'file_path': 'inputs\\s2.png', 'rename_name': '08_01_2025_RS110'}
+2025-07-21 18:24:34 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:24:34 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:24:34 - Image_Analyser - INFO - DB Record: ('0', '983', '2025-04-18', 'inputs\\01_18042025_R983.pdf', '18_04_2025_RS983')
+2025-07-21 18:24:34 - Image_Analyser - INFO - DB Record: ('1', '799.92', '2025-04-18', 'inputs\\02_18042025_R800.pdf', '18_04_2025_RS799.92')
+2025-07-21 18:24:34 - Image_Analyser - INFO - DB Record: ('2', '691', '2025-04-28', 'inputs\\03_28042025_R700.pdf', '28_04_2025_RS691')
+2025-07-21 18:24:34 - Image_Analyser - INFO - DB Record: ('3', '700', '2025-04-28', 'inputs\\03_28042025_R700.png', '28_04_2025_RS700')
+2025-07-21 18:24:34 - Image_Analyser - INFO - DB Record: ('4', '700', '2025-04-28', 'inputs\\04_28042025_R700.png', '28_04_2025_RS700')
+2025-07-21 18:24:34 - Image_Analyser - INFO - DB Record: ('5', '82', '2025-01-20', 'inputs\\s1_20_01_2025_RS82.png', '20_01_2025_RS82')
+2025-07-21 18:24:34 - Image_Analyser - INFO - DB Record: ('6', '110', '2025-01-08', 'inputs\\s2.png', '08_01_2025_RS110')
+2025-07-21 18:25:00 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 18:25:00 - Image_Analyser - INFO - Logger setup complete. Ready to process images.
+2025-07-21 18:25:01 - Image_Analyser - INFO - Launching UI interface
+2025-07-21 18:25:02 - Image_Analyser - ERROR - Error launching UI: [Errno 2] No such file or directory: 'assets/play.png'
+2025-07-21 18:25:02 - Image_Analyser - INFO - Falling back to console mode
+2025-07-21 18:25:02 - Image_Analyser - INFO - Initializing FileOrganizer with directory: inputs folder
+2025-07-21 18:25:02 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 18:25:02 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 18:25:02 - Image_Analyser - INFO - Checking API key.
+2025-07-21 18:25:02 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 18:25:02 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 18:25:02 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 18:25:02 - Image_Analyser - INFO - Processing image file: inputs\01_18042025_R983.pdf
+2025-07-21 18:25:10 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:25:10 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '983', 'file_path': 'inputs\\01_18042025_R983.pdf', 'rename_name': '18_04_2025_RS983'}
+2025-07-21 18:25:10 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:25:10 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:25:10 - Image_Analyser - INFO - Processing image file: inputs\02_18042025_R800.pdf
+2025-07-21 18:25:12 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:25:12 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '799.92', 'file_path': 'inputs\\02_18042025_R800.pdf', 'rename_name': '18_04_2025_RS799.92'}
+2025-07-21 18:25:12 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:25:12 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:25:12 - Image_Analyser - INFO - Processing image file: inputs\03_28042025_R700.pdf
+2025-07-21 18:25:15 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:25:15 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '691', 'file_path': 'inputs\\03_28042025_R700.pdf', 'rename_name': '28_04_2025_RS691'}
+2025-07-21 18:25:15 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:25:15 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:25:15 - Image_Analyser - INFO - Processing image file: inputs\03_28042025_R700.png
+2025-07-21 18:25:18 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:25:18 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'inputs\\03_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:25:18 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:25:18 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:25:18 - Image_Analyser - INFO - Processing image file: inputs\04_28042025_R700.png
+2025-07-21 18:25:21 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:25:21 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'inputs\\04_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:25:21 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:25:21 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:25:21 - Image_Analyser - INFO - Processing image file: inputs\s1_20_01_2025_RS82.png
+2025-07-21 18:25:22 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:25:22 - Image_Analyser - INFO - JSON data extracted: {'date': '20_01_2025', 'amount': '82', 'file_path': 'inputs\\s1_20_01_2025_RS82.png', 'rename_name': '20_01_2025_RS82'}
+2025-07-21 18:25:22 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:25:22 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:25:22 - Image_Analyser - INFO - Processing image file: inputs\s2.png
+2025-07-21 18:25:25 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:25:25 - Image_Analyser - INFO - JSON data extracted: {'date': '08_01_2025', 'amount': '110', 'file_path': 'inputs\\s2.png', 'rename_name': '08_01_2025_RS110'}
+2025-07-21 18:25:25 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:25:25 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:25:25 - Image_Analyser - INFO - DB Record: ('0', '983', '2025-04-18', 'inputs\\01_18042025_R983.pdf', '18_04_2025_RS983')
+2025-07-21 18:25:25 - Image_Analyser - INFO - DB Record: ('1', '799.92', '2025-04-18', 'inputs\\02_18042025_R800.pdf', '18_04_2025_RS799.92')
+2025-07-21 18:25:25 - Image_Analyser - INFO - DB Record: ('2', '691', '2025-04-28', 'inputs\\03_28042025_R700.pdf', '28_04_2025_RS691')
+2025-07-21 18:25:25 - Image_Analyser - INFO - DB Record: ('3', '700', '2025-04-28', 'inputs\\03_28042025_R700.png', '28_04_2025_RS700')
+2025-07-21 18:25:25 - Image_Analyser - INFO - DB Record: ('4', '700', '2025-04-28', 'inputs\\04_28042025_R700.png', '28_04_2025_RS700')
+2025-07-21 18:25:25 - Image_Analyser - INFO - DB Record: ('5', '82', '2025-01-20', 'inputs\\s1_20_01_2025_RS82.png', '20_01_2025_RS82')
+2025-07-21 18:25:25 - Image_Analyser - INFO - DB Record: ('6', '110', '2025-01-08', 'inputs\\s2.png', '08_01_2025_RS110')
+2025-07-21 18:28:44 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 18:28:44 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 18:28:45 - Image_Analyser - ERROR - Error during application startup: [Errno 2] No such file or directory: 'assets/play.png'
+2025-07-21 18:39:55 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 18:41:56 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 18:43:03 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 18:43:03 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 18:43:03 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 18:43:03 - Image_Analyser - INFO - Checking API key.
+2025-07-21 18:43:04 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 18:43:04 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 18:46:42 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 18:46:43 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 18:46:52 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 18:46:52 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 18:46:52 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 18:46:52 - Image_Analyser - INFO - Checking API key.
+2025-07-21 18:46:53 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 18:46:53 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 18:46:53 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 18:46:53 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 18:46:56 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:46:56 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '983', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\01_18042025_R983.pdf', 'rename_name': '18_04_2025_RS983'}
+2025-07-21 18:46:56 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:46:56 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:46:56 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 18:46:58 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:46:58 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '799.92', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\02_18042025_R800.pdf', 'rename_name': '18_04_2025_RS799.92'}
+2025-07-21 18:46:58 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:46:58 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:46:58 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 18:47:01 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:47:01 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '691', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.pdf', 'rename_name': '28_04_2025_RS691'}
+2025-07-21 18:47:01 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:47:01 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:47:01 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 18:47:05 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:47:05 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:47:05 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:47:05 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:47:05 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 18:47:08 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:47:08 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\04_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 18:47:08 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:47:08 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:47:08 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 18:47:09 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:47:09 - Image_Analyser - INFO - JSON data extracted: {'date': '20_01_2025', 'amount': '82', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s1_20_01_2025_RS82.png', 'rename_name': '20_01_2025_RS82'}
+2025-07-21 18:47:09 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:47:09 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 18:47:09 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 18:47:13 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 18:47:13 - Image_Analyser - INFO - JSON data extracted: {'date': '08_01_2025', 'amount': '110', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s2.png', 'rename_name': '08_01_2025_RS110'}
+2025-07-21 18:47:13 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 18:47:13 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 19:54:57 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 20:00:55 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 20:00:55 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 20:01:41 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 20:06:15 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 20:09:52 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:14:19 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:14:20 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:15:03 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 23:15:03 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 23:15:03 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 23:15:03 - Image_Analyser - INFO - Checking API key.
+2025-07-21 23:15:04 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 23:15:04 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 23:15:04 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 23:15:04 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 23:15:07 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:15:07 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '983', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\01_18042025_R983.pdf', 'rename_name': '18_04_2025_RS983'}
+2025-07-21 23:15:07 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:15:07 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: table ImageData has no column named category
+2025-07-21 23:15:07 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:15:07 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 23:15:10 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:15:10 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '799.92', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\02_18042025_R800.pdf', 'rename_name': '18_04_2025_RS799.92'}
+2025-07-21 23:15:10 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:15:10 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: table ImageData has no column named category
+2025-07-21 23:15:10 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:15:10 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 23:15:13 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:15:13 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '691', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.pdf', 'rename_name': '28_04_2025_RS691'}
+2025-07-21 23:15:13 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:15:13 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: table ImageData has no column named category
+2025-07-21 23:15:13 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:15:13 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 23:15:16 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:15:16 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 23:15:16 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:15:16 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: table ImageData has no column named category
+2025-07-21 23:15:16 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:15:16 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 23:15:20 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:15:20 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\04_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 23:15:20 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:15:20 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: table ImageData has no column named category
+2025-07-21 23:15:20 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:15:20 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 23:15:21 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:15:21 - Image_Analyser - INFO - JSON data extracted: {'date': '20_01_2025', 'amount': '82', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s1_20_01_2025_RS82.png', 'rename_name': '20_01_2025_RS82'}
+2025-07-21 23:15:21 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:15:21 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: table ImageData has no column named category
+2025-07-21 23:15:21 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:15:21 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 23:15:25 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:15:25 - Image_Analyser - INFO - JSON data extracted: {'date': '08_01_2025', 'amount': '110', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s2.png', 'rename_name': '08_01_2025_RS110'}
+2025-07-21 23:15:25 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:15:25 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: table ImageData has no column named category
+2025-07-21 23:15:25 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:20:02 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:20:03 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:20:09 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 23:20:09 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 23:20:09 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 23:20:09 - Image_Analyser - INFO - Checking API key.
+2025-07-21 23:20:10 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 23:20:10 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 23:20:10 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:20:10 - Image_Analyser - ERROR - Error in clear_db_data function during execution: no such table: ImageData
+2025-07-21 23:20:10 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 23:20:13 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:20:13 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '983', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\01_18042025_R983.pdf', 'rename_name': '18_04_2025_RS983'}
+2025-07-21 23:20:13 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:20:13 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:20:13 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 23:20:16 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:20:16 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '799.92', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\02_18042025_R800.pdf', 'rename_name': '18_04_2025_RS799.92'}
+2025-07-21 23:20:16 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:20:16 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:20:16 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 23:20:18 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:20:18 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '691', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.pdf', 'rename_name': '28_04_2025_RS691'}
+2025-07-21 23:20:18 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:20:18 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:20:18 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 23:20:21 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:20:21 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 23:20:21 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:20:21 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:20:21 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 23:20:25 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:20:25 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\04_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 23:20:25 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:20:25 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:20:25 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 23:20:26 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:20:26 - Image_Analyser - INFO - JSON data extracted: {'date': '20_01_2025', 'amount': '82', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s1_20_01_2025_RS82.png', 'rename_name': '20_01_2025_RS82'}
+2025-07-21 23:20:26 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:20:26 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:20:26 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 23:20:29 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:20:29 - Image_Analyser - INFO - JSON data extracted: {'date': '08_01_2025', 'amount': '110', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s2.png', 'rename_name': '08_01_2025_RS110'}
+2025-07-21 23:20:29 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:20:29 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:23:05 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:23:06 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:23:16 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 23:23:16 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 23:23:16 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 23:23:16 - Image_Analyser - INFO - Checking API key.
+2025-07-21 23:23:16 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 23:23:16 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 23:23:16 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 23:23:16 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 23:23:19 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:23:19 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:23:19 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:23:19 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 23:23:21 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:23:21 - Image_Analyser - INFO - JSON data extracted: {'date': '18_04_2025', 'amount': '799.92', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\02_18042025_R800.pdf', 'rename_name': '18_04_2025_RS799.92'}
+2025-07-21 23:23:21 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:23:21 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:23:21 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 23:23:24 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:23:24 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '691', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.pdf', 'rename_name': '28_04_2025_RS691'}
+2025-07-21 23:23:24 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:23:24 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:23:24 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 23:23:27 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:23:27 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\03_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 23:23:27 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:23:27 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:23:27 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 23:23:30 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:23:30 - Image_Analyser - INFO - JSON data extracted: {'date': '28_04_2025', 'amount': '700', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\04_28042025_R700.png', 'rename_name': '28_04_2025_RS700'}
+2025-07-21 23:23:30 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:23:30 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:23:30 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 23:23:32 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:23:32 - Image_Analyser - INFO - JSON data extracted: {'date': '20_01_2025', 'amount': '82', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s1_20_01_2025_RS82.png', 'rename_name': '20_01_2025_RS82'}
+2025-07-21 23:23:32 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:23:32 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:23:32 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 23:23:35 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:23:35 - Image_Analyser - INFO - JSON data extracted: {'date': '08_01_2025', 'amount': '110', 'file_path': 'D:\\01_Rahul_Personal\\Cursor_projects\\Expense_Tracker_app-main\\Expense_Tracker_app-main\\inputs\\s2.png', 'rename_name': '08_01_2025_RS110'}
+2025-07-21 23:23:35 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:23:36 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:27:39 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:27:39 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:27:59 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 23:27:59 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 23:27:59 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 23:27:59 - Image_Analyser - INFO - Checking API key.
+2025-07-21 23:28:00 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 23:28:00 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 23:28:00 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 23:28:00 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 23:28:03 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:28:03 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:28:03 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:28:03 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:28:03 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 23:28:05 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:28:05 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:28:05 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:28:05 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:28:05 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 23:28:08 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:28:08 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:28:08 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:28:08 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:28:08 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 23:28:11 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:28:11 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:28:11 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:28:11 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 23:28:14 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:28:14 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:28:14 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:28:14 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 23:28:16 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:28:16 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:28:16 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:28:16 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 23:28:19 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:28:19 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:28:19 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:32:32 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:32:33 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:35:52 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:35:53 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:36:08 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 23:36:08 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 23:36:08 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 23:36:08 - Image_Analyser - INFO - Checking API key.
+2025-07-21 23:36:09 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 23:36:09 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 23:36:09 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-21 23:36:09 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 23:36:12 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:36:13 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:36:13 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:36:13 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:36:13 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 23:36:15 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:36:15 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:36:15 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:36:15 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:36:15 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 23:36:18 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:36:18 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:36:18 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:36:18 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:36:18 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 23:36:21 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:36:21 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:36:21 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:36:21 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 23:36:24 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:36:24 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:36:24 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:36:24 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 23:36:26 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:36:26 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:36:26 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:36:26 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 23:36:29 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:36:29 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:36:29 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:39:53 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:40:05 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:40:06 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:40:10 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 23:40:10 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 23:40:10 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 23:40:10 - Image_Analyser - INFO - Checking API key.
+2025-07-21 23:40:11 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 23:40:11 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 23:40:11 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:40:11 - Image_Analyser - ERROR - Error in clear_db_data function during execution: no such table: ImageData
+2025-07-21 23:40:11 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 23:40:14 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:40:14 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:40:14 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:40:14 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:40:14 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 23:40:16 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:40:16 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:40:16 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:40:16 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:40:16 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 23:40:19 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:40:19 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:40:19 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:40:19 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:40:19 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 23:40:22 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:40:22 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:40:22 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:40:22 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 23:40:25 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:40:25 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:40:25 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:40:25 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 23:40:26 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:40:26 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:40:26 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:40:26 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 23:40:29 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:40:29 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:40:29 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:47:27 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-21 23:47:27 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-21 23:47:34 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-21 23:47:34 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-21 23:47:34 - Image_Analyser - INFO - Found 7 image files.
+2025-07-21 23:47:34 - Image_Analyser - INFO - Checking API key.
+2025-07-21 23:47:34 - Image_Analyser - INFO - API key validated successfully.
+2025-07-21 23:47:34 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-21 23:47:34 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:47:34 - Image_Analyser - ERROR - Error in clear_db_data function during execution: no such table: ImageData
+2025-07-21 23:47:34 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-21 23:47:37 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:47:37 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:47:37 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:47:37 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:47:37 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-21 23:47:40 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:47:40 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:47:40 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:47:40 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:47:40 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-21 23:47:43 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:47:43 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-21 23:47:43 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-21 23:47:43 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:47:43 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-21 23:47:46 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:47:46 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:47:46 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:47:46 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-21 23:47:50 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:47:50 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:47:50 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:47:50 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-21 23:47:51 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:47:51 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:47:51 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-21 23:47:51 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-21 23:47:54 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-21 23:47:54 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-21 23:47:54 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:29:29 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 13:29:33 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-22 13:29:59 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-22 13:29:59 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-22 13:29:59 - Image_Analyser - INFO - Found 7 image files.
+2025-07-22 13:29:59 - Image_Analyser - INFO - Checking API key.
+2025-07-22 13:30:00 - Image_Analyser - INFO - API key validated successfully.
+2025-07-22 13:30:00 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-22 13:30:00 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-22 13:30:00 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-22 13:30:05 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:30:05 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-22 13:30:05 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-22 13:30:05 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:30:05 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-22 13:30:08 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:30:08 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-22 13:30:08 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-22 13:30:08 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:30:08 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-22 13:30:11 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:30:11 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-22 13:30:11 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-22 13:30:11 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:30:11 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-22 13:30:15 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:30:15 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:30:15 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:30:15 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-22 13:30:19 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:30:19 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:30:19 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:30:19 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-22 13:30:20 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:30:21 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:30:21 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:30:21 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-22 13:30:24 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:30:24 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:30:24 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:37:20 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 13:37:21 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-22 13:37:26 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-22 13:37:26 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-22 13:37:26 - Image_Analyser - INFO - Found 7 image files.
+2025-07-22 13:37:26 - Image_Analyser - INFO - Checking API key.
+2025-07-22 13:37:27 - Image_Analyser - INFO - API key validated successfully.
+2025-07-22 13:37:27 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-22 13:37:27 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-22 13:37:27 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-22 13:37:30 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:37:30 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-22 13:37:30 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-22 13:37:30 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:37:30 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-22 13:37:33 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:37:33 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-22 13:37:33 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-22 13:37:33 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:37:33 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-22 13:37:36 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:37:36 - Image_Analyser - WARNING - Rolling back transaction due to an exception.
+2025-07-22 13:37:36 - Image_Analyser - ERROR - Error in save_to_sqlite_db function during execution: Error binding parameter 7: type 'list' is not supported
+2025-07-22 13:37:36 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:37:36 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-22 13:37:39 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:37:39 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:37:39 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:37:39 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-22 13:37:42 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:37:42 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:37:42 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:37:42 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-22 13:37:44 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:37:44 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:37:44 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:37:44 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-22 13:37:48 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:37:48 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:37:48 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:45:22 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 13:45:23 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-22 13:45:28 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-22 13:45:28 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-22 13:45:28 - Image_Analyser - INFO - Found 7 image files.
+2025-07-22 13:45:28 - Image_Analyser - INFO - Checking API key.
+2025-07-22 13:45:29 - Image_Analyser - INFO - API key validated successfully.
+2025-07-22 13:45:29 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-22 13:45:29 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-22 13:45:29 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-22 13:45:36 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:45:36 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:45:36 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:45:36 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-22 13:45:39 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:45:39 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:45:39 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:45:39 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-22 13:45:42 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:45:42 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:45:42 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:45:42 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-22 13:45:45 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:45:45 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:45:45 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:45:45 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-22 13:45:48 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:45:48 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:45:48 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:45:48 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-22 13:45:50 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:45:50 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:45:50 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:45:50 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-22 13:45:53 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:45:53 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:45:53 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:57:26 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 13:58:03 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-22 13:58:03 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-22 13:58:03 - Image_Analyser - INFO - Found 7 image files.
+2025-07-22 13:58:03 - Image_Analyser - INFO - Checking API key.
+2025-07-22 13:58:03 - Image_Analyser - INFO - API key validated successfully.
+2025-07-22 13:58:03 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-22 13:58:03 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-22 13:58:03 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-22 13:58:07 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:58:07 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:58:07 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:58:07 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-22 13:58:10 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:58:10 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:58:10 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:58:10 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-22 13:58:13 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:58:13 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:58:13 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:58:13 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-22 13:58:17 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:58:17 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:58:17 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:58:17 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-22 13:58:20 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:58:20 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:58:20 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:58:20 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-22 13:58:21 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:58:21 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:58:21 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 13:58:21 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-22 13:58:25 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 13:58:25 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 13:58:25 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:00:15 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 14:00:16 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-22 14:00:22 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-22 14:00:22 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-22 14:00:22 - Image_Analyser - INFO - Found 7 image files.
+2025-07-22 14:00:22 - Image_Analyser - INFO - Checking API key.
+2025-07-22 14:00:23 - Image_Analyser - INFO - API key validated successfully.
+2025-07-22 14:00:23 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-22 14:00:23 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-22 14:00:23 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-22 14:00:26 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:00:27 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:00:27 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:00:27 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-22 14:00:29 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:00:29 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:00:29 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:00:29 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-22 14:00:32 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:00:32 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:00:32 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:00:32 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-22 14:00:35 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:00:35 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:00:35 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:00:35 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-22 14:00:38 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:00:38 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:00:38 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:00:38 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-22 14:00:40 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:00:40 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:00:40 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:00:40 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-22 14:00:43 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:00:43 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:00:43 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:01:25 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 14:01:25 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-22 14:01:31 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-22 14:01:31 - Image_Analyser - INFO - Found 7 files in the directory.
+2025-07-22 14:01:31 - Image_Analyser - INFO - Found 7 image files.
+2025-07-22 14:01:31 - Image_Analyser - INFO - Checking API key.
+2025-07-22 14:01:31 - Image_Analyser - INFO - API key validated successfully.
+2025-07-22 14:01:31 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-22 14:01:31 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-22 14:01:31 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf
+2025-07-22 14:01:35 - Image_Analyser - ERROR - JSON decode error: Expecting property name enclosed in double quotes: line 2 column 3 (char 4)
+2025-07-22 14:01:35 - Image_Analyser - WARNING - Failed to process file D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\01_18042025_R983.pdf: Failed to extract JSON data.
+2025-07-22 14:01:35 - Image_Analyser - INFO - Moved failed file to outputs\failed
+2025-07-22 14:01:35 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-22 14:01:37 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:01:37 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:01:37 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:01:37 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-22 14:01:40 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:01:40 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:01:40 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:01:40 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-22 14:01:44 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:01:44 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:01:44 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:01:44 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-22 14:01:47 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:01:47 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:01:47 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:01:47 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-22 14:01:49 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:01:49 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:01:49 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:01:49 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-22 14:01:52 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:01:52 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:01:52 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:01:52 - Image_Analyser - INFO - Image analysis has been stopped.
+2025-07-22 14:04:20 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 14:04:21 - Image_Analyser - INFO - Starting the Expense Tracker AI application
+2025-07-22 14:04:27 - Image_Analyser - INFO - Initializing FileOrganizer with directory: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs folder
+2025-07-22 14:04:27 - Image_Analyser - INFO - Found 6 files in the directory.
+2025-07-22 14:04:27 - Image_Analyser - INFO - Found 6 image files.
+2025-07-22 14:04:27 - Image_Analyser - INFO - Checking API key.
+2025-07-22 14:04:27 - Image_Analyser - INFO - API key validated successfully.
+2025-07-22 14:04:27 - Image_Analyser - INFO - Google API configured successfully.
+2025-07-22 14:04:27 - Image_Analyser - INFO - All existing data cleared from SQLite database.
+2025-07-22 14:04:27 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\02_18042025_R800.pdf
+2025-07-22 14:04:31 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:04:31 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:04:31 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:04:31 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.pdf
+2025-07-22 14:04:34 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:04:34 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:04:34 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:04:34 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\03_28042025_R700.png
+2025-07-22 14:04:37 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:04:37 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:04:37 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:04:37 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\04_28042025_R700.png
+2025-07-22 14:04:40 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:04:40 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:04:40 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:04:40 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s1_20_01_2025_RS82.png
+2025-07-22 14:04:42 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:04:42 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:04:42 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:04:42 - Image_Analyser - INFO - Processing image file: D:\01_Rahul_Personal\Cursor_projects\Expense_Tracker_app-main\Expense_Tracker_app-main\inputs\s2.png
+2025-07-22 14:04:45 - Image_Analyser - INFO - JSON data extracted successfully.
+2025-07-22 14:04:45 - Image_Analyser - INFO - Data inserted into SQLite database successfully.
+2025-07-22 14:04:45 - Image_Analyser - INFO - Image data extracted and saved to database successfully.
+2025-07-22 14:06:27 - Image_Analyser - ERROR - Error during gRPC shutdown: module 'grpc' has no attribute 'shutdown'
+2025-07-22 14:06:28 - Image_Analyser - INFO - Starting the Expense Tracker AI application
