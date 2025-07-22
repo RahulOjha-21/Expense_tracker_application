@@ -76,7 +76,7 @@ class GeminiImageAnalyzer:
 if __name__ == "__main__":
     api_key = ""
     # Instantiate and use the analyzer
-    image_analyzer = GeminiImageAnalyzer("AIzaSyCk4c0KXAhDWMGqxJjt7C7zrGwU_8d2WmY")
+    image_analyzer = GeminiImageAnalyzer("")
     response = image_analyzer.get_gemini_response(
         question="Find the amount and Date",
         image_path="input/s1.png"
