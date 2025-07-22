@@ -74,7 +74,7 @@ class GeminiImageAnalyzer:
 
 # Standalone usage
 if __name__ == "__main__":
-    api_key = "AIzaSyCk4c0KXAhDWMGqxJjt7C7zrGwU_8d2WmY"
+    api_key = ""
     # Instantiate and use the analyzer
     image_analyzer = GeminiImageAnalyzer("AIzaSyCk4c0KXAhDWMGqxJjt7C7zrGwU_8d2WmY")
     response = image_analyzer.get_gemini_response(
